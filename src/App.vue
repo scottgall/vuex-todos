@@ -1,5 +1,9 @@
 <template>
-  <Todos />
+  <div id="app">
+    <div class="container">
+      <Todos />
+    </div>
+  </div> 
 </template>
 
 <script>
