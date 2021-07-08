@@ -1,7 +1,15 @@
 <template>
   <div>
     <h1>Todos</h1>
-    
+    <div class="legend">
+      <span>Double click to mark as complete</span>
+      <span>
+        <span class="incomplete-box"></span> = incomplete
+      </span>
+      <span>
+        <span class="complete-box"></span> = complete
+      </span>
+    </div>
     <div class="todos">
       <div v-for="todo in allTodos" :key="todo.id" class="todo">
         {{ todo.title }}
