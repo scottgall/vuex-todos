@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Add Todo</h3>
+    <h2>Add Todo</h2>
     <div class="add">
       <form @submit="onSubmit">
         <input type="text" v-model="title" placeholder="Add Todo...">
